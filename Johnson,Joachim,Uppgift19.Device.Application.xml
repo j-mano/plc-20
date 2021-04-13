@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.10.0</Version>
+    <SymbolConfigObject version="3.5.10.40" runtimeid="3.5.10.40" libversion="3.5.10.0" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Johnson,Joachim,Uppgift19" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="iSUB00_S1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB00_S2" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB00_S3" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB01_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB02_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="iSUB03_B1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB00_H1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB00_H2" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB00_H3" type="T_WORD" access="ReadWrite" />
+        <Node name="oSUB01_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB02_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="oSUB03_K1" type="T_BOOL" access="ReadWrite" />
+        <Node name="running" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
